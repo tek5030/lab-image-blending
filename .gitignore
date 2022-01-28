@@ -3,6 +3,7 @@ doc/latex
 .idea
 build
 cmake-build*
-
 opencv/
 opencv*/
+venv
+.venv
