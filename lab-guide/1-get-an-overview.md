@@ -33,7 +33,7 @@ We will therefore start by introducing the contents of this project.
   - white_tiger.png
   
 ## `lab2()`
-First, take a look at the `lab2()` function in [*lab_2.cpp*](https://github.com/tek5030/lab_02/blob/master/lab_2.cpp).
+First, take a look at the `lab2()` function in [*lab_2.cpp*](https://github.com/tek5030/lab-image-blending/blob/master/lab_2.cpp).
 Try to understand the steps taken here, and please ask one of the instructors if you are uncertain.
 
 Then build and run the project. 
