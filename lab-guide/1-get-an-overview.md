@@ -12,11 +12,11 @@ We will therefore start by introducing the contents of this project.
 
 - *main.cpp*
 
-  Starts lab 2, catches any exceptions and prints their error message on the console.
+  Starts the lab, catches any exceptions and prints their error messages on the console.
 
-- *lab_2.{h,cpp}*
+- *lab_image_blending.{h,cpp}*
 
-  Runs lab 2 and displays the results on screen.
+  Runs the lab and displays the results on screen.
   
 - *linear_blending.{h,cpp}*
 
@@ -32,8 +32,8 @@ We will therefore start by introducing the contents of this project.
   - tiger.png
   - white_tiger.png
   
-## `lab2()`
-First, take a look at the `lab2()` function in [*lab_2.cpp*](https://github.com/tek5030/lab-image-blending/blob/master/lab_2.cpp).
+## `runImageBlendingLab()`
+First, take a look at the `runImageBlendingLab()` function in [*lab_image_blending.cpp*](https://github.com/tek5030/lab-image-blending/blob/master/lab_image_blending.cpp).
 Try to understand the steps taken here, and please ask one of the instructors if you are uncertain.
 
 Then build and run the project. 

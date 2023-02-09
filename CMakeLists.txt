@@ -1,6 +1,6 @@
 cmake_minimum_required( VERSION 3.5.1 )
 
-project(lab_02_blending)
+project(lab-image-blending)
 
 # Compiler flags
 if (MSVC)
@@ -15,8 +15,8 @@ find_package(OpenCV 4 REQUIRED)
 
 add_executable(${PROJECT_NAME}
   main.cpp
-  lab_2.h
-  lab_2.cpp
+  lab_image_blending.h
+  lab_image_blending.cpp
   laplace_blending.h
   laplace_blending.cpp
   linear_blending.h

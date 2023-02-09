@@ -3,7 +3,7 @@ Lets do some image processing!
 
 ## 1. Load and convert the source images
 First, we need to read the two images we want to blend. 
-We will start at the beginning of `lab2()` in [*lab_2.cpp:12*](https://github.com/tek5030/lab-image-blending/blob/master/lab_2.cpp#L12).
+We will start at the beginning of `runImageBlendingLab()` in [*lab_image_blending.cpp:12*](https://github.com/tek5030/lab-image-blending/blob/master/lab_image_blending.cpp#L12).
 
 - Read two images (choose two of the images given in the project directory)
   - Hint: [cv::imread(...)]
@@ -21,7 +21,7 @@ We will do this by constructing a weight image with weights
 
 A weight of 1 means that the blended pixel will be equal to the corresponding pixel in image 1, while a weight of 0.5 means that the resulting pixel is an equally large mix of both images.
 
-Go to [*lab_2.cpp:25*](https://github.com/tek5030/lab-image-blending/blob/master/lab_2.cpp#L25)
+Go to [*lab_image_blending.cpp:25*](https://github.com/tek5030/lab-image-blending/blob/master/lab_image_blending.cpp#L25)
 - Create the weight image:
   - The size is equal to the size of the input images
   - It should have 3 channels given in 32-bit floating point
@@ -36,7 +36,7 @@ Go to [*lab_2.cpp:25*](https://github.com/tek5030/lab-image-blending/blob/master
 ## 3. Simple linear blending
 The next step is to implement functionality for simple linear blending, where the two images are mixed according to the weight image.
 
-First, take a look at the function declarations and documentation in [*linear_blending.h*](https://github.com/tek5030/lab-image-blending/blob/master/laplace_blending.h).
+First, take a look at the function declarations and documentation in [*linear_blending.h*](https://github.com/tek5030/lab-image-blending/blob/master/linear_blending.h).
 
 Then, go to `linearBlending()`  in [*linear_blending.cpp:3*](https://github.com/tek5030/lab-image-blending/blob/master/linear_blending.cpp#L3).
 
@@ -75,7 +75,7 @@ Then, go to [*laplace_blending.cpp*](https://github.com/tek5030/lab-image-blendi
   
 - Construct a Laplacian pyramid
   - Finish [constructLaplacianPyramid()](https://github.com/tek5030/lab-image-blending/blob/master/laplace_blending.cpp#L46)
-  - Hint: Use [cv::pyrUp()](https://docs.opencv.org/4.0.1/d4/d86/group__imgproc__filter.html#gada75b59bdaaca411ed6fee10085eb784)
+  - Hint: Use [cv::pyrUp()](https://docs.opencv.org/4.5.5/d4/d86/group__imgproc__filter.html#gada75b59bdaaca411ed6fee10085eb784)
   
   ![Laplacian pyramid](thumb_pyr_laplace.png)
 
